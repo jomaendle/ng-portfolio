@@ -1,0 +1,40 @@
+:host {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-transform: uppercase;
+  color: var(--text-color);
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.left {
+  flex: 1;
+
+  .title {
+    font-size: 1.25rem;
+    margin: 0.5rem;
+  }
+}
+
+.right {
+  nav ul {
+    display: flex;
+    gap: 1rem;
+    padding: 0 1rem;
+
+    li {
+      font-weight: 700;
+      letter-spacing: 1px;
+      cursor: pointer;
+      transition: color 0.1s ease-in;
+
+      &:hover {
+        color: rgba(var(--text-color-rgb), 0.5);
+      }
+    }
+  }
+}

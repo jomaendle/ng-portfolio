@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/jomaendle/ng-portfolio/issues"
   },
-  "homepage": "https://github.com/jomaendle/ng-portfolio#readme"
+  "homepage": "https://github.com/jomaendle/ng-portfolio#readme",
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
 }
